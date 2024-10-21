@@ -246,6 +246,132 @@ button {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Education Box */
+.education-box {
+    background-color: #eef3f7;
+    border-left: 5px solid #007BFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.education-box h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.education-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education-box li {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.education-box li strong {
+    color: #007BFF;
+}
+
+
+/* Skills Section */
+.skills-section {
+    padding: 60px 20px;
+    background-color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .skills-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .skills-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .skills-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  .skills-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .skills-item:hover {
+    transform: translateY(-10px);
+  }
+  
+
+/* Experience Section */
+.experience-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .experience-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .experience-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .experience-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  .experience-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .experience-item:hover {
+    transform: translateY(-10px);
+  }
+  
+
 
 /* work Section */
 
